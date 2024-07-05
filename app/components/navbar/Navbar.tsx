@@ -22,7 +22,7 @@ export const Navbar = () => {
           </div>
           <ul className={styles.navbarList}>
             <li>
-              <Link href="#">Flights</Link>
+              <Link href="/flights">Flights</Link>
             </li>
             <li>
               <Link href="#">Hotels</Link>

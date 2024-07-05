@@ -16,7 +16,84 @@
     line-height: 1;
     z-index: 0 !important;
 }
+
 .button:hover {
     background: var(--purple-hovered);
     transition: 0.3s;
+}
+
+.card {
+    width: 31.3%;
+    display: flex;
+    flex-direction: column;
+}
+
+.cardContainer {
+    border-radius: 0.5rem;
+    transition: 0.3s;
+    box-shadow: 0px 5px 10px 2px #1C054D33;
+}
+
+.card > .cardContainer:hover,
+.banner:hover {
+    box-shadow: 0px 5px 27px 17px #c3c7ca99;
+    transition: 0.3s;
+}
+
+.cardImage {
+    height: 397px;
+}
+
+.blured {
+    filter: blur(5px);
+}
+
+.cardImage>img {
+    border-top-right-radius: 0.4rem;
+    border-top-left-radius: 0.4rem;
+    width: 100% !important;
+    height: 397px !important;
+}
+
+.cardBody {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+}
+
+.description>h4 {
+    font-size: 1.25rem;
+    color: var(--dark-grey);
+    font-weight: 600;
+}
+
+.description>h4>span {
+    color: var(--purple-blue);
+    cursor: pointer;
+}
+
+.description>p {
+    font-size: 1.05rem;
+    font-weight: 400;
+    color: var(--grey);
+}
+
+.price {
+    font-size: 1.25rem;
+    color: var(--dark-grey);
+    font-weight: 600;
+}
+
+.banner {
+    width: 100%;
+    display: flex;
+    transition: 0.3s;
+    flex-direction: column;
+    border-radius: 0.4rem;
+    box-shadow: 0px 5px 10px 2px #1C054D33;
 }

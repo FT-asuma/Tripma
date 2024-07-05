@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 .entrance {
     background-image: url("/images/intro/entranceBg.png");
-    height: 80vh;
+    height: 90vh;
     width: 100vw;
     background-repeat: no-repeat;
     background-position: center;
@@ -10,6 +11,7 @@
     align-items: center;
     flex-direction: column;
     gap: 5rem;
+    overflow-x: none;
 }
 
 .entrance > h1 {

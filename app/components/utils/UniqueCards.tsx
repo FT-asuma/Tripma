@@ -4,7 +4,17 @@ import styles from "./utils.module.css";
 import Image from "next/image";
 import { ICard } from "@/interfaces";
 import Link from "next/link";
-export const Card = ({ img, title, price, label, link }: ICard) => {
+export const Card = ({
+  img,
+  title,
+  label,
+  link,
+}: {
+  img: string;
+  title: string;
+  label: string;
+  link: string;
+}) => {
   return (
     <Link
       href={`/cards/${link.toLocaleLowerCase()}`}
@@ -22,7 +32,6 @@ export const Card = ({ img, title, price, label, link }: ICard) => {
             </h4>
             <p>{label}</p>
           </div>
-          {price !== 0 && <p className={styles.price}>${price}</p>}
         </div>
       </div>
     </Link>
