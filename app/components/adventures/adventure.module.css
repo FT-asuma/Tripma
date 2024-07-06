@@ -59,7 +59,7 @@
 
 .popularCards>a:not(:hover),
 .long>a:not(:hover) {
-    filter: grayscale(100%) blur(2px);
+    filter: grayscale(100%);
     transition: 0.3s;
 }
 
