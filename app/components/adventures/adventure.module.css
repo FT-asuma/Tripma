@@ -1,73 +1,73 @@
 .adventures {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .advice {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    gap: 6rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 6rem;
 }
 
 .advertisement {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
-.advice>h3 {
-    font-size: 1.4rem;
-    color: var(--grey);
+.advice > h3 {
+  font-size: 1.4rem;
+  color: var(--grey);
 }
 
-.advice>a {
-    color: #A1B0CC;
-    display: flex;
-    align-items: center;
-    font-size: 1.5rem;
-    gap: 0.3rem;
+.advice > a {
+  color: #a1b0cc;
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  gap: 0.3rem;
 }
 
-.advice>h3>span {
-    color: var(--purple-blue);
-    cursor: pointer;
+.advice > h3 > span {
+  color: var(--purple-blue);
+  cursor: pointer;
 }
 
 .cards {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 3rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
 }
 
 .popularCards {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.popularCards>a:not(:hover),
-.long>a:not(:hover) {
-    filter: grayscale(100%);
-    transition: 0.3s;
+.popularCards > div:not(:hover),
+.long > div:not(:hover) {
+  filter: grayscale(100%);
+  transition: 0.3s;
 }
 
 .popularCards:last-child span {
-    color: var(--turqoise);
+  color: var(--turqoise);
 }
 
 .loadMore {
-    width: 12.25rem;
-    margin: auto;
+  width: 12.25rem;
+  margin: auto;
 }
